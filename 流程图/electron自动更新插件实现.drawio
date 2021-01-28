@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2021-01-28T10:43:31.443Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" version="14.2.3" etag="Egf3foTmEQBHHwBJimwu" type="github"><diagram id="F97wJb-DD7JK8EOw3NRO">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-28T11:07:25.406Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="xiZy5a9zvba_fS1_n-67" version="14.2.3" type="github">
+  <diagram id="F97wJb-DD7JK8EOw3NRO" name="第 1 页">
+    <mxGraphModel dx="1929" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Sr2g0wbvPeNb8CKuxqv0-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sr2g0wbvPeNb8CKuxqv0-3" target="Sr2g0wbvPeNb8CKuxqv0-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sr2g0wbvPeNb8CKuxqv0-3" value="定义好更新的各个事件的侦听器" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="570" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Sr2g0wbvPeNb8CKuxqv0-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Sr2g0wbvPeNb8CKuxqv0-5" target="Sr2g0wbvPeNb8CKuxqv0-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sr2g0wbvPeNb8CKuxqv0-5" value="使用&lt;div&gt;autoUpdater&lt;/div&gt;&lt;div&gt;实现自动更新&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Sr2g0wbvPeNb8CKuxqv0-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sr2g0wbvPeNb8CKuxqv0-9" target="Sr2g0wbvPeNb8CKuxqv0-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sr2g0wbvPeNb8CKuxqv0-9" value="&lt;span&gt;导入&lt;/span&gt;&lt;br&gt;&lt;span&gt;autoUpdater&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Sr2g0wbvPeNb8CKuxqv0-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sr2g0wbvPeNb8CKuxqv0-15" target="Sr2g0wbvPeNb8CKuxqv0-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sr2g0wbvPeNb8CKuxqv0-15" value="定义好的发现更新事件&lt;br&gt;update-not-available" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="50" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Sr2g0wbvPeNb8CKuxqv0-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sr2g0wbvPeNb8CKuxqv0-19" target="Sr2g0wbvPeNb8CKuxqv0-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sr2g0wbvPeNb8CKuxqv0-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sr2g0wbvPeNb8CKuxqv0-19" target="Sr2g0wbvPeNb8CKuxqv0-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sr2g0wbvPeNb8CKuxqv0-19" value="检查更新&lt;br&gt;autoUpdater.checkForUpdatess" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-127.5" y="760" width="175" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Sr2g0wbvPeNb8CKuxqv0-22" value="触发" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sr2g0wbvPeNb8CKuxqv0-24" value="提示用户有更新" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="55" width="175" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Sr2g0wbvPeNb8CKuxqv0-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sr2g0wbvPeNb8CKuxqv0-31" target="Sr2g0wbvPeNb8CKuxqv0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sr2g0wbvPeNb8CKuxqv0-31" value="添加更新日志&lt;br&gt;设置更新属性" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="380" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Sr2g0wbvPeNb8CKuxqv0-38" value="定义好的更新下载进度事件&lt;br&gt;download-progress" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="180" width="190" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
