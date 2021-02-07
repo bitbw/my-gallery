@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-07T00:56:27.330Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="BmAMmnutJ-vh0nxyPSEx" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-07T01:26:51.246Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="EH_Ii-rJR-pwX8wNJpIP" version="14.2.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1102" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+    <mxGraphModel dx="1102" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -56,19 +56,16 @@
         <mxCell id="HOWuG2slT9Zqzhq4XEB2-4" value="安装新版本后&lt;br&gt;判断本地是否有对应数据路径" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="125" y="560" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HOWuG2slT9Zqzhq4XEB2-5" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HOWuG2slT9Zqzhq4XEB2-4" edge="1">
+        <mxCell id="HOWuG2slT9Zqzhq4XEB2-5" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HOWuG2slT9Zqzhq4XEB2-4" edge="1" target="HOWuG2slT9Zqzhq4XEB2-6">
           <mxGeometry y="20" relative="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="395" y="420" as="sourcePoint" />
             <mxPoint x="370" y="590" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="340" y="590" />
-              <mxPoint x="340" y="590" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HOWuG2slT9Zqzhq4XEB2-6" value="直接在本地盘用户目录下新增IConfig文件夹&lt;br&gt;并file\init下的文件放到文件夹下" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="370" y="560" width="240" height="60" as="geometry" />
+          <mxGeometry x="410" y="560" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HOWuG2slT9Zqzhq4XEB2-8" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="230" y="630" width="40" height="20" as="geometry" />
@@ -81,25 +78,22 @@
         <mxCell id="HOWuG2slT9Zqzhq4XEB2-9" value="判断file\init中的userDB是否大于app版本&lt;br&gt;（带哈希版会请求回正常版本号）" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="85" y="660" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HOWuG2slT9Zqzhq4XEB2-10" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+        <mxCell id="HOWuG2slT9Zqzhq4XEB2-10" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1" target="HOWuG2slT9Zqzhq4XEB2-11">
           <mxGeometry y="20" relative="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="355" y="689.5" as="sourcePoint" />
             <mxPoint x="445" y="689.5" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="415" y="689.5" />
-              <mxPoint x="415" y="689.5" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HOWuG2slT9Zqzhq4XEB2-11" value="退出更新文件操作" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="450" y="660" width="110" height="60" as="geometry" />
+          <mxGeometry x="440" y="660" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HOWuG2slT9Zqzhq4XEB2-16" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="230" y="740" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HOWuG2slT9Zqzhq4XEB2-17" value="&lt;span&gt;file\init下的文件放到本地 并对userDB执行SQL&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="75" y="790" width="290" height="60" as="geometry" />
+        <mxCell id="HOWuG2slT9Zqzhq4XEB2-17" value="&lt;span&gt;file\init下的文件放到本地 &lt;br&gt;并对userDB执行SQL&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="117.5" y="790" width="205" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
